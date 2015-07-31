@@ -16,10 +16,14 @@ var students = ['joe', 'carl', 'rachel', 'derek', 'lily'];
 // }
 
 //PROBLEM 2 (LOG JOE, RACHEL, LILLY)
-for (var i = 0; i < students.length; i++) {
-  if(i%2==0) {
-    console.log(students[i]);
-  }
-}
+// for (var i = 0; i < students.length; i++) {
+//   if(i%2==0) {
+//     console.log(students[i]);
+//   }
+// }
+
+//PROBLEM 3 (LOG LILY, DERECK, RACHEL. CARL, JOE)
+     console.log(students.reverse());
+
 
 });
