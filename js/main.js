@@ -11,19 +11,37 @@ var students = ['joe', 'carl', 'rachel', 'derek', 'lily'];
 // };
 
 //PROBLEM 1 (LOG JOE, CARL, RACHEL, DEREK)
-// for (var i = 0; i < 4; i++) {
-//   console.log(students[i]);
-// }
+  for (var i = 0; i < 4; i++) {
+    console.log(students[i]);
+  }
 
 //PROBLEM 2 (LOG JOE, RACHEL, LILLY)
-// for (var i = 0; i < students.length; i++) {
-//   if(i%2==0) {
-//     console.log(students[i]);
-//   }
-// }
+  for (var i = 0; i < students.length; i++) {
+    if(i%2==0) {
+      console.log(students[i]);
+    }
+  }
 
 //PROBLEM 3 (LOG LILY, DERECK, RACHEL. CARL, JOE)
-     console.log(students.reverse());
+    for (var i = 0; i < students.length; i++) {
+    var reversedStudents = students.reverse();
+    console.log(reversedStudents[i]);
+    }
 
+//PROBLEM 4 (LOG JOE, CARL, CARL, RACHEL, RACHEL, DEREK, DEREK, LILY)
+  for (var i = 0; i < students.length; i++) {
+    if(i === 0) {
+      console.log(students[i]);
+    } else if (i === 1) {
+      console.log(students[i]);
+      console.log(students[i]);
+    } else if (i === 2) {
+      console.log(students[i]);
+      console.log(students[i]);
+    } else if (i === 3) {
+      console.log(students[i]);
+      console.log(students[i]);
+    } else console.log(students[4]);
+  }
 
 });
